@@ -1,6 +1,7 @@
+# Thymeleaf 설정
 spring:
   thymeleaf:
-    cache: false
+    cache: false  # 템플릿 캐싱 비활성화. 파일 수정시 서버 재시작할 필요 없이 실시간 반영하기 위한 설정
   datasource:
     url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1
     driverClassName: org.h2.Driver
