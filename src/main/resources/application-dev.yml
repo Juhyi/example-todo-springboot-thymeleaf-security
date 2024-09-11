@@ -1,9 +1,13 @@
-# Thymeleaf 설정
+## Spring Boot 애플리케이션 Thymeleaf 템플릿 엔진과 데이터베이스(H2), Swagger UI를 설정하는 YAML 파일
+
 spring:
+  # Thymeleaf 설정
   thymeleaf:
     cache: false  # 템플릿 캐싱 비활성화. 파일 수정시 서버 재시작할 필요 없이 실시간 반영하기 위한 설정
+  # 데이터베이스 설정 (H2 데이터 베이스)
   datasource:
-    url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1
+  # 메모리 기반 H2 DB 사용 설정, testdb라는 이름의 데이터 베이스 생성, 애플리케이션 종료시 메모리에서 사라짐
+    url: jdbc:h2:mem:testdb;MODE=MySQL;DB_CLOSE_DELAY=-1  # MySQL 호환 모드로 설정, MySQL 문법 사용 가능
     driverClassName: org.h2.Driver
     username: sa
     password:
