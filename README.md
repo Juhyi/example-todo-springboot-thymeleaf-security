@@ -5,5 +5,5 @@
 
 일반 계정 - test / 123
 
-## 자바 - lombok !()
+## 자바 - lombok ![내용 정리](https://github.com/Juhyi/example-todo-springboot-thymeleaf-security/blob/main/jave_lombok.md)
 
