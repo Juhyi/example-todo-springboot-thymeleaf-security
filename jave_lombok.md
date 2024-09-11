@@ -94,20 +94,20 @@ public String toString() {
 - @RequiredArgsConstructor
     - final 필드나 @NonNull로 표시된 필드만을 포함하는 생성자를 자동으로 생성. - 반드시 초기화해야 할 필드만 포함한 생성자를 제공할 때 유용합니다.
 
-```java
-// 사용 예시
-@RequiredArgsConstructor
-public class User {
-    @NonNull private String name;
-    private final int age;
-}
-
-// 생성되는 생성자
-public User(String name, int age) {
-    this.name = name;
-    this.age = age;
-}
-```
+    ```java
+    // 사용 예시
+    @RequiredArgsConstructor
+    public class User {
+        @NonNull private String name;
+        private final int age;
+    }
+    
+    // 생성되는 생성자
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    ```
 
 ### 4. @Data
 - @Getter, @Setter, @ToString, @EqualsAndHashCode, @RequiredArgsConstructor 어노테이션들을 한 번에 적용하는 종합 어노테이션
