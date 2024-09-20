@@ -9,7 +9,7 @@
 ### lombok [🔗내용 정리](https://github.com/Juhyi/example-todo-springboot-thymeleaf-security/blob/main/jave_lombok.md)
 
 ## 스프링부트 
-### 기초 [🔗내용 정리]()
+### 기초 [🔗내용 정리](https://github.com/Juhyi/example-todo-springboot-thymeleaf-security/blob/main/basic_springboot.md)
 
 ### 입문 [🔗내용 정리]()
 
