@@ -25,5 +25,10 @@
 
 7. MessageConverter를 가짐. 현재 기본값은 json
 - 자바 object를 -> json으로 변경하여 전송 -> Python object로 변경
+- 요청시: 자바 object를 json으로 알아서 변경해주는 것, MessageConverter:Jackson
+- 응답시 : json을 알아서 자바 object로 변경해주는 것
+- json: {"num":10, "name": "사자"}
+
 8. BufferedReader와 BufferedWriter를 쉽게 사용할 수 있음
+
 9. 계속해서 발전하는 중임.
